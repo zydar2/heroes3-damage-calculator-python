@@ -1,0 +1,142 @@
+Unit_name,Castle,Level,Attack,Defence,Minimum Damage,Maximum Damage,Health,Speed,Growth,AI_Value,Gold,Additional_item,Special_abilities
+Pikeman,Castle,1,4,5,1,3,10,4,14,80,60,0,Immunetojousting
+Halberdier,Castle,1+,6,5,2,3,10,5,14,115,75,0,Immunetojousting
+Archer,Castle,2,6,3,2,3,10,4,9,126,100,0,Ranged(12shots)
+Marksman,Castle,2+,6,3,2,3,10,6,9,184,150,0,"Ranged(24shots),Doubleattack"
+Griffin,Castle,3,8,8,3,6,25,6,7,351,200,0,"Flying,Tworetaliations"
+Royal Griffin,Castle,3+,9,9,3,6,25,9,7,448,240,0,"Flying,Unlimitedretaliations"
+Swordsman,Castle,4,10,12,6,9,35,5,4,445,300,0,-
+Crusader,Castle,4+,12,12,7,10,35,6,4,558,400,0,Doubleattack
+Monk,Castle,5,12,7,10,12,30,5,3,485,400,0,Ranged(12shots)
+Zealot,Castle,5+,12,10,10,12,30,7,3,750,450,0,"Ranged(24shots),Nomeleepenalty"
+Cavalier,Castle,6,15,15,15,25,100,7,2,1946,1000,0,Jousting
+Champion,Castle,6+,16,16,20,25,100,9,2,2100,1200,0,Jousting
+Angel,Castle,7,20,20,50,50,200,12,1,5019,3000,"Gem,1","Flying,HatesDevils,Morale+1"
+Archangel,Castle,7+,30,30,50,50,250,18,1,8776,5000,"Gem,3","Flying,HatesDevils,Resurrection,Morale+1"
+Centaur,Rampart,1,5,3,2,3,8,6,14,100,70,0,-
+Centaur Captain,Rampart,1+,6,3,2,3,10,8,14,138,90,0,-
+Dwarf,Rampart,2,6,7,2,4,20,3,8,138,120,0,Resistance+20%
+Battle Dwarf,Rampart,2+,7,7,2,4,20,5,8,209,150,0,Resistance+40%
+Wood Elf,Rampart,3,9,5,3,5,15,6,7,234,200,0,Ranged(24shots)
+Grand Elf,Rampart,3+,9,5,3,5,15,7,7,331,225,0,"Ranged(24shots),Doubleattack"
+Pegasus,Rampart,4,9,8,5,9,30,8,5,518,250,0,"Flying,Magicdamper"
+Silver Pegasus,Rampart,4+,9,10,5,9,30,12,5,532,275,0,"Flying,Magicdamper"
+Dendroid Guard,Rampart,5,9,12,10,14,55,3,3,517,350,0,Binding
+Dendroid Soldier,Rampart,5+,9,12,10,14,65,4,3,803,425,0,Binding
+Unicorn,Rampart,6,15,14,18,22,90,7,2,1806,850,0,"Blind,AuraofResistance+20%"
+War Unicorn,Rampart,6+,15,14,18,22,110,9,2,2030,950,0,"Blind,AuraofResistance+20%"
+Green Dragon,Rampart,7,18,18,40,50,180,10,1,4872,2400,"Crystal,1","Flying,Breathattack,Resistlvl1–3spells"
+Gold Dragon,Rampart,7+,27,27,40,50,250,16,1,8613,4000,"Crystal,2","Flying,Breathattack,Resistlvl1–4spells"
+Gremlin,Tower,1,3,3,1,2,4,4,16,44,30,0,-
+Master Gremlin,Tower,1+,4,4,1,2,4,5,16,66,40,0,Ranged(8shots)
+Stone Gargoyle,Tower,2,6,6,2,3,16,6,9,165,130,0,"Unliving,Flying"
+Obsidian Gargoyle,Tower,2+,7,7,2,3,16,9,9,201,160,0,"Unliving,Flying"
+Stone Golem,Tower,3,7,10,4,5,30,3,6,250,150,0,"Unliving,SpellDamageResistance+50%"
+Iron Golem,Tower,3+,9,10,4,5,35,5,6,412,200,0,"Unliving,SpellDamageResistance+75%"
+Mage,Tower,4,11,8,7,9,25,5,4,570,350,0,"Ranged(24shots),Nomeleepenalty,Spellscost-2sp"
+Arch Mage,Tower,4+,12,9,7,9,30,7,4,680,450,0,"Ranged(24shots),Nomeleepenalty,Noobstaclepenalty,Spellscost-2sp"
+Genie,Tower,5,12,12,13,16,40,7,3,884,550,0,"Flying,HatesEfreets"
+Master Genie,Tower,5+,12,12,13,16,40,11,3,942,600,0,"Flying,Spellcaster,HatesEfreets"
+Naga,Tower,6,16,13,20,20,110,5,2,2016,1100,0,Noenemyretaliation
+Naga Queen,Tower,6+,16,13,30,30,110,7,2,2840,1600,0,Noenemyretaliation
+Giant,Tower,7,19,16,40,60,150,7,1,3718,2000,"Gem,1",ImmunitytoMind
+Titan,Tower,7+,24,24,40,60,300,11,1,7500,5000,"Gem,2","Ranged(24shots),Nomeleepenalty,ImmunitytoMind,HatesBlackDragons"
+Imp,Inferno,1,2,3,1,2,4,5,15,50,50,0,-
+Familiar,Inferno,1+,4,4,1,2,4,7,15,60,60,0,Magicchannel
+Gog,Inferno,2,6,4,2,4,13,4,8,159,125,0,Ranged(12shots)
+Magog,Inferno,2+,7,4,2,4,13,6,8,240,175,0,"Ranged(24shots),Fireballattack"
+Hell Hound,Inferno,3,10,6,2,7,25,7,5,357,200,0,-
+Cerberus,Inferno,3+,10,8,2,7,25,8,5,392,250,0,"Noenemyretaliation,3-headedattack"
+Demon,Inferno,4,10,10,7,9,35,5,4,445,250,0,-
+Horned Demon,Inferno,4+,10,10,7,9,40,6,4,480,270,0,-
+Pit Fiend,Inferno,5,13,13,13,17,45,6,3,765,500,0,-
+Pit Lord,Inferno,5+,13,13,13,17,45,7,3,1224,700,0,Summondemons
+Efreet,Inferno,6,16,12,16,24,90,9,2,1670,900,0,"Flying,Fireimmunity"
+Efreet Sultan,Inferno,6+,16,14,16,24,90,13,2,1848,1100,0,"Flying,Fireshield,Fireimmunity,HatesGenies"
+Devil,Inferno,7,19,21,30,40,160,11,1,5101,2700,"Mercury,1","Teleporting,Noenemyretaliation,Luck-1,HatesAngels"
+Arch Devil,Inferno,7+,26,28,30,40,200,17,1,7115,4500,"Mercury,2","Teleporting,Noenemyretaliation,Luck-1,HatesAngels"
+Skeleton,Necropolis,1,5,4,1,3,6,4,12,60,60,0,Undead
+Skeleton Warrior,Necropolis,1+,6,6,1,3,6,5,12,85,70,0,Undead
+Walking Dead,Necropolis,2,5,5,2,3,15,3,8,98,100,0,Undead
+Zombie,Necropolis,2+,5,5,2,3,20,4,8,128,125,0,"Undead,Disease"
+Wight,Necropolis,3,7,7,3,5,18,5,7,252,200,0,"Undead,Flying,Regeneration"
+Wraith,Necropolis,3+,7,7,3,5,18,7,7,315,230,0,"Undead,Flying,Regeneration,Manadrain"
+Vampire,Necropolis,4,10,9,5,8,30,6,4,555,360,0,"Undead,Flying,Noretaliation"
+Vampire Lord,Necropolis,4+,10,10,5,8,40,9,4,783,500,0,"Undead,Flying,Noretaliation,Lifedrain"
+Lich,Necropolis,5,13,10,11,13,30,6,3,848,550,0,"Ranged(12shots),Undead,Deathcloud"
+Power Lich,Necropolis,5+,13,10,11,15,40,7,3,1079,600,0,"Ranged(24shots),Undead,Deathcloud"
+Black Knight,Necropolis,6,16,16,15,30,120,7,2,2084,1200,0,"Undead,Curse"
+Dread Knight,Necropolis,6+,18,18,15,30,120,9,2,2382,1500,0,"Undead,Curse,Deathblow"
+Bone Dragon,Necropolis,7,17,15,25,50,150,9,1,3388,1800,0,"Dragon,Undead,Flying,Morale-1"
+Ghost Dragon,Necropolis,7+,19,17,25,50,200,14,1,4696,3000,"Mercury,1","Dragon,Undead,Flying,Morale-1,Aging"
+Troglodyte,Dungeon,1,4,3,1,3,5,4,14,59,50,0,ImmunetoBlinding
+Infernal Troglodyte,Dungeon,1+,5,4,1,3,6,5,14,84,65,0,ImmunetoBlinding
+Harpy,Dungeon,2,6,5,1,4,14,6,8,154,130,0,"Flying,Strikeandreturn"
+Harpy Hag,Dungeon,2+,6,6,1,4,14,9,8,238,170,0,"Flying,Strikeandreturn,Noenemyretaliation"
+Beholder,Dungeon,3,9,7,3,5,22,5,7,336,250,0,"Ranged(12shots),Nomeleepenalty"
+Evil Eye,Dungeon,3+,10,8,3,5,22,7,7,367,280,0,"Ranged(24shots),Nomeleepenalty"
+Medusa,Dungeon,4,9,9,6,8,25,5,4,517,300,0,"Ranged(4shots),Nomeleepenalty,Petrify"
+Medusa Queen,Dungeon,4+,10,10,6,8,30,6,4,577,330,0,"Ranged(8shots),Nomeleepenalty,Petrify"
+Minotaur,Dungeon,5,14,12,12,20,50,6,3,835,500,0,Positivemorale
+Minotaur King,Dungeon,5+,15,15,12,20,50,8,3,1068,575,0,Positivemorale
+Manticore,Dungeon,6,15,13,14,20,80,7,2,1547,850,0,Flying
+Scorpicore,Dungeon,6+,16,14,14,20,80,11,2,1589,1050,0,"Flying,Paralyze"
+Red Dragon,Dungeon,7,19,19,40,50,180,11,1,4702,2500,"Sulfur,1","Dragon,Flying,Breathattack,Resistlvl1-3spells"
+Black Dragon,Dungeon,7+,25,25,40,50,300,15,1,8721,4000,"Sulfur,2","Dragon,Flying,Breathattack,Resistallspells,HatesTitans"
+Goblin,Stronghold,1,4,2,1,2,5,5,15,60,40,0,-
+Hobgoblin,Stronghold,1+,5,3,1,2,5,7,15,78,50,0,-
+Wolf Rider,Stronghold,2,7,5,2,4,10,6,9,130,100,0,-
+Wolf Raider,Stronghold,2+,8,5,3,4,10,8,9,203,140,0,Doubleattack
+Orc,Stronghold,3,8,4,2,5,15,4,7,192,150,0,Ranged(12shots)
+Orc Chieftain,Stronghold,3+,8,4,2,5,20,5,7,240,165,0,Ranged(24shots)
+Ogre,Stronghold,4,13,7,6,12,40,4,4,416,300,0,-
+Ogre Mage,Stronghold,4+,13,7,6,12,60,5,4,672,400,0,CastBloodlustx3
+Roc,Stronghold,5,13,11,11,15,60,7,3,1027,600,0,Flying
+Thunderbird,Stronghold,5+,13,11,11,15,60,11,3,1106,700,0,"Flying,Lightningstrike"
+Cyclops,Stronghold,6,15,12,16,20,70,6,2,1266,750,0,"Ranged(16shots),Canattacksiegewalls"
+Cyclops King,Stronghold,6+,17,13,16,20,70,8,2,1443,1100,0,"Ranged(24shots),Canattacksiegewalls"
+Behemoth,Stronghold,7,17,17,30,50,160,6,1,3162,1500,0,Defense-40%toenemytarget
+Ancient Behemoth,Stronghold,7+,19,19,30,50,300,9,1,6168,3000,"Crystal,1",Defense-80%toenemytarget
+Gnoll,Fortress,1,3,5,2,3,6,4,12,56,50,0,-
+Gnoll Marauder,Fortress,1+,4,6,2,3,6,5,12,90,70,0,-
+Lizardman,Fortress,2,5,6,2,3,14,4,9,126,110,0,Ranged(12shots)
+Lizard Warrior,Fortress,2+,6,8,2,5,15,5,9,156,140,0,Ranged(24shots)
+Serpent Fly,Fortress,3,7,9,2,5,20,9,8,268,220,0,"Flying,Dispel"
+Dragon Fly,Fortress,3+,8,10,2,5,20,13,8,312,240,0,"Flying,Dispel,Weakness"
+Basilisk,Fortress,4,11,11,6,10,35,5,4,552,325,0,Petrify
+Greater Basilisk,Fortress,4+,12,12,6,10,40,7,4,714,400,0,Petrify
+Gorgon,Fortress,5,10,14,12,16,70,5,3,890,525,0,-
+Mighty Gorgon,Fortress,5+,11,16,12,16,70,6,3,1028,600,0,Deathstare10%chance/unit
+Wyvern,Fortress,6,14,14,14,18,70,7,2,1350,800,0,Flying
+Wyvern Monarch,Fortress,6+,14,14,18,22,70,11,2,1518,1100,0,"Flying,Poison"
+Hydra,Fortress,7,16,18,25,45,175,5,1,4120,2200,0,"Noenemyretaliation,Attackalladjacentenemies"
+Chaos Hydra,Fortress,7+,18,20,25,45,250,7,1,5931,3500,"Sulfur,1","Noenemyretaliation,Attackalladjacentenemies"
+Pixie,Conflux,1,2,2,1,2,3,7,20,55,25,0,Flying
+Sprite,Conflux,1+,2,2,1,3,3,9,20,95,30,0,"Flying,Noenemyretaliation"
+Air Elemental,Conflux,2,9,9,2,8,25,7,6,356,250,0,"Elemental,Lightningvulnerability,ImmunetoMeteorShower"
+Storm Elemental,Conflux,2+,9,9,2,8,25,8,6,486,275,0,"Ranged(24shots),Elemental,Lightningvulnerability,ImmunetoMeteorShower,CastsProtectionfromAir"
+Water Elemental,Conflux,3,8,10,3,7,30,5,6,315,300,0,"Elemental,VulnerabletoFireball,InfernoandArmageddon,Iceimmunity"
+Ice Elemental,Conflux,3+*,8,10,3,7,30,6,6,380,375,0,"Ranged(24shots),Elemental,VulnerabletoFireball,InfernoandArmageddon,Iceimmunity,CastsProtectionfromWater"
+Fire Elemental,Conflux,4,10,8,4,6,35,6,5,345,350,0,"Elemental,Icevulnerability,Fireimmunity"
+Energy Elemental,Conflux,4+*,12,8,4,6,35,8,5,470,400,0,"Elemental,Flying,Icevulnerability,Fireimmunity,CastsProtectionfromFire"
+Earth Elemental,Conflux,5,10,10,4,8,40,4,4,330,400,0,"Elemental,MeteorShowervulnerability,LightningandArmageddonimmunity"
+Magma Elemental,Conflux,5+*,11,11,6,10,40,6,4,490,500,0,"Elemental,MeteorShowervulnerability,LightningandArmageddonimmunity,CastsProtectionfromEarth"
+Psychic Elemental,Conflux,6,15,13,10,20,75,7,2,1669,750,0,"Elemental,Noenemyretaliation,Attacksadjacenthexes"
+Magic Elemental,Conflux,6+,15,13,15,25,80,9,2,2012,800,0,"Elemental,Noenemyretaliation,Attacksadjacenthexes,Spellimmunity"
+Firebird,Conflux,7,18,18,30,40,150,15,2,4547,1500,0,"Flying,Breathattack,Fireimmunity"
+Phoenix,Conflux,7+,21,18,30,40,200,21,2,6721,2000,"Mercury,1","Flying,Breathattack,Fireimmunity,Rebirth"
+Peasant,Neutral,1,1,1,1,1,1,3,25,15,10,0,-
+Halfling,Neutral,1,4,2,1,3,4,5,15,75,40,0,"Ranged(24shots),PositiveLuck"
+Boar,Neutral,2,6,5,2,3,15,6,8,145,150,0,-
+Rogue,Neutral,2,8,3,2,4,10,6,8,135,100,0,Spying
+Mummy,Neutral,3,7,7,3,5,30,5,7,270,300,0,"Undead,Curse"
+Nomad,Neutral,3,9,8,2,6,30,7,7,345,200,0,Sandwalker
+Sharpshooter,Neutral,4,12,10,8,10,15,9,4,585,400,0,"Ranged(32shots),Norangeandobstaclepenalty"
+Troll,Neutral,5,14,7,10,15,40,7,3,1024,500,0,Regeneration
+Gold Golem,Neutral,5,11,12,8,10,50,5,3,600,500,0,"Unliving,SpellDamageResistance+85%"
+Diamond Golem,Neutral,6,13,12,10,14,60,5,2,775,750,0,"Unliving,SpellDamageResistance+95%"
+Enchanter,Neutral,6,17,12,14,14,30,9,2,1210,750,0,"Ranged(32shots),Nomeleeandobstaclepenalty,Spellcaster"
+Faerie Dragon,Neutral,7,20,20,20,30,500,15,1,19580,10000,"Gem,8","Dragon,Flying,Spellcaster,MagicMirror"
+Rust Dragon,Neutral,7,30,30,50,50,750,17,1,26433,15000,"Sulfur,14","Dragon,Flying,Breath,Acidbreath"
+Crystal Dragon,Neutral,7,40,40,60,75,800,16,1,39338,20000,"Crystal,10","Dragon,Crystalgeneration,Resistance+20%,Unliving"
+Azure Dragon,Neutral,7,50,50,70,80,1000,19,1,78845,30000,"Mercury,20","Dragon,Flying,Breath,Fear,Resistlvl1–3spells,ResistFear"
